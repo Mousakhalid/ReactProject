@@ -16,5 +16,3 @@ jobs:
         run: npm install --global surge         
       - name: Deploy to Surge   
         run: surge ./build ReactProject.surge.su ${{secrets.SURGE_TOKEN}}
-      -
-      
