@@ -19,4 +19,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build ReactProject.surge.su ${{secrets.SURGE_TOKEN}}
+        run: surge ./build mousareact.surge.sh ${{secrets.SURGE_TOKEN}}
